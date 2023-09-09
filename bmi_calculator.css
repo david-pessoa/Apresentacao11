@@ -1,0 +1,184 @@
+body
+{
+    padding-left: 50px;
+    margin-bottom: 120px;
+    margin-right: 0;
+}
+
+h1
+{
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+h2
+{
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+h3
+{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+h4
+{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+p:not(.answer, .number, .p_answer)
+{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+.system
+{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+    font-weight: 600;
+}
+
+.label
+{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #253347;
+}
+
+.superior
+{
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+
+.direita
+{
+    margin-right: 10px;
+    margin-left: 100px;
+}
+
+.esquerda
+{
+    background-image: linear-gradient(to right, #ffffff, #d4f4fd);
+    border-radius: 20px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    width: 40%;
+}
+
+.answer
+{
+    background-color: #345FF6;
+    border-radius: 20px;
+    border-left: 10px;
+    border-right: 50px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.p_answer
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.number
+{
+    margin: 0;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.sushi
+{
+    background-color: #d4f4fd;
+    border-radius: 20px;
+}
+
+.meio
+{
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.explanation
+{
+    margin-left: 70px;
+    margin-right: 20%;
+}
+
+.boxes
+{
+    display: flex;
+    background-image: linear-gradient(to right, #ffffff, #e2f3f8);
+    border-radius: 20px;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 5%;
+    margin-bottom: 120px;
+}
+
+.box
+{
+    margin-right: 10px;
+}
+
+.level1
+{
+    display: flex;
+}
+
+.level2
+{
+    display: flex;
+    margin-left: 25%;
+}
+
+.level3
+{
+    display: flex;
+    margin-left: 10%;
+}
+
+.title
+{
+    display: flex;
+}
+
+.icon
+{
+    margin-right: 20px;
+}
+
+.limitations
+{
+    margin-right: 15%;
+    width: 500px
+}
+
+.white_box 
+{
+    box-shadow: 20px 20px 20px 20px rgba(226, 243, 248, 1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: 40px;
+    width: 350px;
+}
